@@ -3,6 +3,7 @@ import calendar
 from pprint import pprint
 from collections import defaultdict
 
+
 class Class:
     def __init__(self, list_input):
         self.code = list_input[0]
@@ -46,17 +47,20 @@ class Class:
     def simplify_activity(self):
         return int(self.activity)
 
-    
+
 def print_line():
     print(u"\u2500" * (14 * 7 + 6))
 
+
 def display_table(classes, active_activities, info):
-    print_line()
+    print("")
     info_str = "Timetable for " + info[0] + ", student number " + info[1]
-    print("|" + info_str.center(14 * 7 + 4) + "|")
+    print(info_str.center(14 * 7 + 6))
+    print_line()
     day_row = "|    |"
     for day in list(calendar.day_abbr):
         day_row += day.center(13) + "|"
+    print(day_row)
     print_line()
     for hour in range(8, 20):
         row_1 = "|" + str(hour).rjust(3) + " |"
@@ -65,19 +69,22 @@ def display_table(classes, active_activities, info):
             if classes[(day, hour)] != []:
                 if len(classes[(day, hour)]) == 1:
                     row_1 += classes[(day, hour)][0][0].center(13) + "|"
-                    row_2 += classes[(day, hour)][0][1].center(9) + \
-                        str(classes[(day, hour)][0][2]).center(4) + "|"
+                    row_2 += (
+                        classes[(day, hour)][0][1].center(9)
+                        + str(classes[(day, hour)][0][2]).center(4)
+                        + "|"
+                    )
                 else:
                     # Search for the right class (THIS IS BAREBONES)
                     # for option in classes[(day, hour)]:
                     #     print(option)
                     #     print(activities)
-                        # if option[1] == activities[classes[(day, hour)][0][0]][0][1] and \
-                        # option[2] == activities[classes[(day, hour)][0][0]][1][1]:
-                        #     row_1 += option[0].center(13) + "|"
-                        #     row_2 += option[1].center(9) + str(option[2]).center(4) + "|"
-                        # else:
-                        #     continue
+                    # if option[1] == activities[classes[(day, hour)][0][0]][0][1] and \
+                    # option[2] == activities[classes[(day, hour)][0][0]][1][1]:
+                    #     row_1 += option[0].center(13) + "|"
+                    #     row_2 += option[1].center(9) + str(option[2]).center(4) + "|"
+                    # else:
+                    #     continue
                     row_1 += "CLASH".center(13, ".") + "|"
                     row_2 += "".center(13, ".") + "|"
             else:
@@ -88,24 +95,27 @@ def display_table(classes, active_activities, info):
         print_line()
     return "Success!"
 
+
 # Main function
 if __name__ == "__main__":
     name = "Matthew Low"
     number = "45300587"
     info = (name, number)
     dictionary = defaultdict(lambda: [])
-    lol = list(csv.reader(open('timetable.csv', 'r'), delimiter='\t'))
+    lol = list(csv.reader(open("timetable.csv", "r"), delimiter="\t"))
     classes = lol[1:]
     for cl in classes:
         co = Class(cl)
 
-        dictionary[(co.simplify_day(), co.simplify_time())].append((co.simplify_code(), co.simplify_group(), co.simplify_activity()))
+        dictionary[(co.simplify_day(), co.simplify_time())].append(
+            (co.simplify_code(), co.simplify_group(), co.simplify_activity())
+        )
 
     # pprint(dict(dictionary))
     activities = defaultdict(lambda: [])
     # Put in preferences here
-    activities["COMP4403"] = [('LEC', 1), ('TUT', 1)]
-    activities["MATH3401"] = [('LEC', 1), ('TUT', 5)]
-    activities["STAT3001"] = [('LEC', 1), ('TUT', 2)]
-    activities["STAT3004"] = [('LEC', 1), ('TUT', 1)]
+    activities["COMP4403"] = [("LEC", 1), ("TUT", 1)]
+    activities["MATH3401"] = [("LEC", 1), ("TUT", 5)]
+    activities["STAT3001"] = [("LEC", 1), ("TUT", 2)]
+    activities["STAT3004"] = [("LEC", 1), ("TUT", 1)]
     print(display_table(dictionary, activities, info))
