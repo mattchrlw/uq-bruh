@@ -98,8 +98,8 @@ def display_table(classes, active_activities, info):
 
 # Main function
 if __name__ == "__main__":
-    name = "Matthew Low"
-    number = "45300587"
+    name = "Big Chungus"
+    number = "12345678"
     info = (name, number)
     dictionary = defaultdict(lambda: [])
     lol = list(csv.reader(open("timetable.csv", "r"), delimiter="\t"))

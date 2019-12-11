@@ -10,4 +10,4 @@ A timetable planner for the dark ages. _This is still a major work in progress, 
 
 ## Screenshots (clearly there is some functionality missing)
 
-![WIP](https://i.imgur.com/0hO7sY0.png)
+![WIP](https://i.imgur.com/14P0szt.png)
