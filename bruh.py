@@ -48,7 +48,7 @@ class Class:
 
     
 def print_line():
-    print("-" * (14 * 7 + 6))
+    print(u"\u2500" * (14 * 7 + 6))
 
 def display_table(classes, active_activities, info):
     print_line()
