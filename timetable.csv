@@ -1,0 +1,28 @@
+Subject Code	Description	Group	Activity	Day	Time	Campus	Location	Duration	Dates
+COMP4403_S1_STLUC_IN	Compilers and Interpreters	LEC1	01	Mon	08:00	STLUC	05-213 - Richards Building, Lecture Theatre	2 hrs	24/2-6/4, 20/4-25/5
+COMP4403_S1_STLUC_IN	Compilers and Interpreters	LEC2	01	Tue	11:00	STLUC	81-313 - Otto Hirschfeld Building, Lecture Theatre	1 hr	25/2-7/4, 21/4-26/5
+COMP4403_S1_STLUC_IN	Compilers and Interpreters	TUT1	01	Tue	12:00	STLUC	49-316 - Advanced Engineering Building, Simulation & Modelling 1	1 hr	25/2-7/4, 21/4-26/5
+COMP4403_S1_STLUC_IN	Compilers and Interpreters	TUT1	02	Tue	13:00	STLUC	49-316 - Advanced Engineering Building, Simulation & Modelling 1	1 hr	25/2-7/4, 21/4-26/5
+MATH3401_S1_STLUC_IN	Complex Analysis	LEC1	01	Tue	09:00	STLUC	07-222 - Parnell Building, Lecture Theatre	1 hr	25/2-7/4, 21/4-26/5
+MATH3401_S1_STLUC_IN	Complex Analysis	LEC2	01	Thu	10:00	STLUC	07-222 - Parnell Building, Lecture Theatre	1 hr	27/2-9/4, 23/4-28/5
+MATH3401_S1_STLUC_IN	Complex Analysis	LEC3	01	Fri	10:00	STLUC	07-222 - Parnell Building, Lecture Theatre	1 hr	28/2-10/4, 24/4-29/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	01	Tue	10:00	STLUC	83-C416 - Hartley Teakle Building, Collaborative Room	1 hr	3/3-7/4, 21/4-26/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	02	Mon	09:00	STLUC	32-208 - Gordon Greenwood Building, Collaborative Room	1 hr	2/3-6/4, 20/4-25/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	03	Tue	12:00	STLUC	09-222 - Michie Building, Tutorial Room	1 hr	3/3-7/4, 21/4-26/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	04	Tue	11:00	STLUC	78-224 - General Purpose South, Collaborative Room	1 hr	3/3-7/4, 21/4-26/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	05	Mon	10:00	STLUC	78-224 - General Purpose South, Collaborative Room	1 hr	2/3-6/4, 20/4-25/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	06	Thu	11:00	STLUC	78-224 - General Purpose South, Collaborative Room	1 hr	5/3-9/4, 23/4-28/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	07	Thu	12:00	STLUC	78-224 - General Purpose South, Collaborative Room	1 hr	5/3-9/4, 23/4-28/5
+MATH3401_S1_STLUC_IN	Complex Analysis	TUT1	08	Thu	13:00	STLUC	78-224 - General Purpose South, Collaborative Room	1 hr	5/3-9/4, 23/4-28/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	LEC1	01	Mon	14:00	STLUC	05-213 - Richards Building, Lecture Theatre	1 hr	24/2-6/4, 20/4-25/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	LEC2	01	Wed	13:00	STLUC	76-228 - Molecular Biosciences, Lecture Theatre	1 hr	26/2-8/4, 22/4-27/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	LEC3	01	Fri	14:00	STLUC	81-313 - Otto Hirschfeld Building, Lecture Theatre	1 hr	28/2-10/4, 24/4-29/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	TUT1	01	Thu	13:00	STLUC	09-201 - Michie Building, Tutorial Room	1 hr	5/3-9/4, 23/4-28/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	TUT1	02	Fri	15:00	STLUC	35-215 - Chamberlain Building, Tutorial Room	1 hr	6/3-10/4, 24/4-29/5
+STAT3001_S1_STLUC_IN	Mathematical Statistics	TUT1	03	Thu	08:00	STLUC	35-207 - Chamberlain Building, Tutorial Room	1 hr	5/3-9/4, 23/4-28/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	LEC1	01	Tue	11:00	STLUC	03-309 - Steele Building, Lecture Theatre	1 hr	25/2-7/4, 21/4-26/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	LEC2	01	Thu	09:00	STLUC	03-309 - Steele Building, Lecture Theatre	1 hr	27/2-9/4, 23/4-28/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	LEC3	01	Fri	11:00	STLUC	07-222 - Parnell Building, Lecture Theatre	1 hr	28/2-10/4, 24/4-29/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	TUT1	01	Fri	12:00	STLUC	09-803 - Michie Building, Tutorial Room	1 hr	6/3-10/4, 24/4-29/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	TUT1	02	Fri	13:00	STLUC	09-803 - Michie Building, Tutorial Room	1 hr	6/3-10/4, 24/4-29/5
+STAT3004_S1_STLUC_IN	Probability Models & Stochastic Processes	TUT1	03	Fri	15:00	STLUC	09-803 - Michie Building, Tutorial Room	1 hr	6/3-10/4, 24/4-29/5
